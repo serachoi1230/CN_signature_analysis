@@ -116,9 +116,3 @@ convert_txt_to_context <- function(path){
   context_count <- make_and_count_catalogue_label(cna)
   return(context_count)
 }
-
-
-### Load file 
-cna_path <- "/Users/schoi/Github_repos/CN_signature_analysis/data/0b7da678-0837-4fc0-8523-62df1a964939/6a556615-d80f-4b48-94af-a6f25089b40c.wgs.ASCAT.copy_number_variation.seg.txt" 
-result <- convert_txt_to_context(cna_path)
-result
